@@ -6,11 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shopping_parent" />
+        <module name="shopping_manager_pojo" />
+        <module name="shopping_manager_service" />
+        <module name="shopping_manager_mapper" />
+        <module name="shopping_manager_web" />
+        <module name="shopping_common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shopping" target="1.5" />
+      <module name="shopping_common" target="1.8" />
+      <module name="shopping_manager" target="1.8" />
+      <module name="shopping_manager_mapper" target="1.8" />
+      <module name="shopping_manager_pojo" target="1.8" />
+      <module name="shopping_manager_service" target="1.8" />
+      <module name="shopping_manager_web" target="1.8" />
+      <module name="shopping_parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
